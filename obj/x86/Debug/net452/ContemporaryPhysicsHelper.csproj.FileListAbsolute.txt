@@ -1,0 +1,9 @@
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\bin\x86\Debug\net452\ContemporaryPhysicsHelper.dll
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\bin\x86\Debug\net452\ContemporaryPhysicsHelper.pdb
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\x86\Debug\net452\ContemporaryPhysicsHelper.csproj.AssemblyReference.cache
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\x86\Debug\net452\ContemporaryPhysicsHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\x86\Debug\net452\ContemporaryPhysicsHelper.AssemblyInfoInputs.cache
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\x86\Debug\net452\ContemporaryPhysicsHelper.AssemblyInfo.cs
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\x86\Debug\net452\ContemporaryPhysicsHelper.csproj.CoreCompileInputs.cache
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\x86\Debug\net452\ContemporaryPhysicsHelper.dll
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\x86\Debug\net452\ContemporaryPhysicsHelper.pdb

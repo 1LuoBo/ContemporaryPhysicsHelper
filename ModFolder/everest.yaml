@@ -1,0 +1,6 @@
+- Name: ContemporaryPhysicsHelper
+  Version: 0.1.0
+  DLL: ContemporaryPhysicsHelper.dll
+  Dependencies:
+    - Name: EverestCore
+      Version: 1.4470.0

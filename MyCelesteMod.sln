@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContemporaryPhysicsHelper", "ContemporaryPhysicsHelper.csproj", "{052657FC-146D-4F8B-8C01-3902AA582FD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052657FC-146D-4F8B-8C01-3902AA582FD0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{052657FC-146D-4F8B-8C01-3902AA582FD0}.Debug|x86.Build.0 = Debug|Any CPU
+		{052657FC-146D-4F8B-8C01-3902AA582FD0}.Release|x86.ActiveCfg = Release|x86
+		{052657FC-146D-4F8B-8C01-3902AA582FD0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E999F05-77F5-4D7F-AD74-00F5F1DA5D42}
+	EndGlobalSection
+EndGlobal

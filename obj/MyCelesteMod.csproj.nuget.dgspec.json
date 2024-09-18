@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\MyCelesteMod.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\MyCelesteMod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\MyCelesteMod.csproj",
+        "projectName": "MyCelesteMod",
+        "projectPath": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\MyCelesteMod.csproj",
+        "packagesPath": "C:\\Users\\LuoBo\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LuoBo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "targetAlias": "net452",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "targetAlias": "net452",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
