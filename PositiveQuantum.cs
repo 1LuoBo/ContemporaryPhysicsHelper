@@ -28,10 +28,26 @@ namespace ContemporaryPhysicsHelper
 
         public override void Render()
         {
-            base.Render();
-            Microsoft.Xna.Framework.Color c = Microsoft.Xna.Framework.Color.White;
-            c.A = 255;
-            Draw.Rect(new Vector2(Position.X - 4, Position.Y - 4), 8, 8, c);
+            bool flag = false;
+            if (this.sprite.CurrentAnimationID == "explode")
+            {
+                flag = true;
+            }
+            else if (this.sprite.CurrentAnimationID == "hidden")
+            {
+                flag = true;
+            }
+            if (flag)
+            {
+                this.sprite.DrawSimpleOutline();
+                base.Render();
+            } else
+            {
+                base.Render();
+                Microsoft.Xna.Framework.Color c = Microsoft.Xna.Framework.Color.White;
+                c.A = 255;
+                Draw.Rect(new Vector2(Position.X - 8, Position.Y - 8), 16, 16, c);
+            }
         }
 
         public override void Update()
@@ -43,6 +59,7 @@ namespace ContemporaryPhysicsHelper
                 {
                     base.Explode((this.Position + negativeQuantum.Position) / 2);
                     base.GotoGone();
+                    negativeQuantum.Explode((this.Position + negativeQuantum.Position) / 2);
                     negativeQuantum.GotoGone();
                     if (negativeQuantum.doesRemoveOnExplode)
                     {
@@ -53,7 +70,8 @@ namespace ContemporaryPhysicsHelper
                 {
                     this.Position = this.previousPosition;
                 }
-                if (negativeQuantum != null && negativeQuantum.state != Quantum.States.Gone && this.isInited && !this.Hold.IsHeld)
+                if (negativeQuantum != null && negativeQuantum.state == Quantum.States.Idle && this.isInited && !this.Hold.IsHeld
+                    && this.state == Quantum.States.Idle)
                 {
                     Vector2 r;
                     if (negativeQuantum.quantumId < this.quantumId)
@@ -74,7 +92,8 @@ namespace ContemporaryPhysicsHelper
                 {
                     this.Position = this.previousPosition;
                 }
-                if (positiveQuantum != null && positiveQuantum != this && positiveQuantum.state != Quantum.States.Gone && this.isInited && !this.Hold.IsHeld)
+                if (positiveQuantum != null && positiveQuantum != this && positiveQuantum.state != Quantum.States.Gone && this.isInited && !this.Hold.IsHeld
+                    && this.state == Quantum.States.Idle)
                 {
                     Vector2 r;
                     if (positiveQuantum.quantumId < this.quantumId) 

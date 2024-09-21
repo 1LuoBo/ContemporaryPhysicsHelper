@@ -10,3 +10,4 @@ D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\Contempor
 D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\refint\ContemporaryPhysicsHelper.dll
 D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.pdb
 D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ref\ContemporaryPhysicsHelper.dll
+D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.sourcelink.json

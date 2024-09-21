@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\quantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:quantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\positivequantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:positivequantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\contemporaryphysicshelpermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:contemporaryphysicshelpermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\modfolder\\loenn\\entities\\quantum.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:modfolder\\loenn\\entities\\quantum.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\negativequantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:negativequantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\quantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:quantum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\modfolder\\loenn\\entities\\quantum.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:modfolder\\loenn\\entities\\quantum.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\contemporaryphysicshelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:contemporaryphysicshelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\contemporaryphysicshelpermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|solutionrelative:contemporaryphysicshelpermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{052657FC-146D-4F8B-8C01-3902AA582FD0}|ContemporaryPhysicsHelper.csproj|d:\\documents\\celestemodding\\contemporaryphysicshelper\\fluctuation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -48,32 +48,33 @@
               "RelativeDocumentMoniker": "Fluctuation.cs",
               "ToolTip": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\Fluctuation.cs",
               "RelativeToolTip": "Fluctuation.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA4wDAAAAA/AAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswCwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T03:28:49.572Z"
+              "WhenOpened": "2024-08-13T03:28:49.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "NegativeQuantum.cs",
               "DocumentMoniker": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\NegativeQuantum.cs",
               "RelativeDocumentMoniker": "NegativeQuantum.cs",
               "ToolTip": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\NegativeQuantum.cs",
               "RelativeToolTip": "NegativeQuantum.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA4wEIAAAAeAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAADwvz0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T04:39:39.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PositiveQuantum.cs",
               "DocumentMoniker": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\PositiveQuantum.cs",
               "RelativeDocumentMoniker": "PositiveQuantum.cs",
               "ToolTip": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\PositiveQuantum.cs",
               "RelativeToolTip": "PositiveQuantum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAIwF8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T04:39:21.361Z",
               "EditorCaption": ""
@@ -86,27 +87,14 @@
               "RelativeDocumentMoniker": "ModFolder\\Loenn\\entities\\Quantum.lua",
               "ToolTip": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ModFolder\\Loenn\\entities\\Quantum.lua",
               "RelativeToolTip": "ModFolder\\Loenn\\entities\\Quantum.lua",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQRSURBVDhPnVQ5b1xVFD733rfNm83j2CGJEymWhY1MoEIIQUGHEBJLCxJFGkr4G1RIFlsXN6Gms1wgIQqwsBuUxXhXkCdxQjxjz/bmLXfhO8\u002BxkCLRcEffO3f9znfOPXfEt999r4zRJhtnF/zAf2l6avIVKVWhyAlB\u002BOErBZHjPjk7\u002BeDXrdrg4R/ttz5LHh8dqWLmVSOuzFP74E/68sPXnfjq9o\u002BBszZ3efqiJvVBHk98rElqRziPJpxjiw8MGP20142K4d2wWl8Nsv7vcJSo2UUaXLhGP/9wm9QbH33qp04aY92lgVVvPjThe6daTqVOXcxITRfCn9bCmzayxEXtV6/kYf26E2pOKXWig0rXBNUkt4KeDgqSqbaUFpYy42RqICC3FW1s7JytQF1FEoNiJShG6DFS0HDKn01V9E5fVT8ZhK2X\u002B6kLB48ekypSko1QUT1QFPuKJiKPZuqBuz4RmZl6aC/VfDcVew7zrhZIV/UZ8OBLGwS\u002Bsip43xT5a3o8aIl8RFcryPtPv61HzrlsPBzckH54s/nC1c\u002BFklYKIQnScCu4Ckd5ZolgpRJOepJvzGmt1ZPDv74p8uxWXK/fsbx65969CjmX9k5Pb1Qq8c3ZubkvVOCZPDVynGhwOOF7krrdxBWFExOtCk1OVZnQWKPVg4ODr9N0fKvRbN6FcyUVRJRCAOSJfAyyUUGdvxPqAkk/J2GIAimpWQ2A0NUjn2qhL6qhT5HvudD32FLFUyQLranQhnARlKM/HGV09KgnDts98eTpSPQHGeaxDqVxDQQVVKhzAEGiE8ZawHGfNKekKDQZAwlkS5skGZ2cjMnCgedBNULgCs9S3oNoJJc57rosSwBD5LusUoa0FskGGb8F9qyhhlsUSQpDFA3mer2MCpSWRomVb4aZ/qNx\u002BqCM1Vlict8XVEHlcb8oDGWZphHSwA6CQJZkZyIQM7dn5rxJFHC5gQlZDYfYaPgOpE5ildc9z7lGI4AzVmzxUhlnET3fypDPCdnyplrNo1YrpGbTA7kHG1C1qkpnzxNx//wcWzxi4/gyrC1tCV6ESrp8uUozM1U3ORkh/BQoWF15mHHGB82l4jOUCs838MQzQov8GcCyL1SCvX9/025ubtr9/X27u7tr1tbW7Pr6uhuNRrZer1Mcx8hx8G/IgAB4zFYxkAYecybFeDwW7XZb7uzsyK2tLbW9va329vYECJXneQJAjn388WntsgzFm\u002BcGSHCwC3SAY8ZwOOwkSdKJoqiD4usg7GOcOcbhDhR1MU4Gg4Hp9/uE/SRWVlY8eNKNRuMaDr2NhXexuSxGrl4GihkFn1CapmVqeMzz\u002BD9UELOK8S\u002BtVutwYWFB0urqKs3Pz9PS0hItLy8zz/9qi4uLtLGxQf8AxA2\u002BT6h7RPkAAAAASUVORK5CYII=",
               "WhenOpened": "2024-07-31T07:00:10.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContemporaryPhysicsHelperModule.cs",
-              "DocumentMoniker": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelperModule.cs",
-              "RelativeDocumentMoniker": "ContemporaryPhysicsHelperModule.cs",
-              "ToolTip": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelperModule.cs",
-              "RelativeToolTip": "ContemporaryPhysicsHelperModule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:24:40.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ContemporaryPhysicsHelper.csproj",
               "DocumentMoniker": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelper.csproj",
               "RelativeDocumentMoniker": "ContemporaryPhysicsHelper.csproj",
@@ -119,15 +107,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Quantum.cs",
               "DocumentMoniker": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\Quantum.cs",
               "RelativeDocumentMoniker": "Quantum.cs",
               "ToolTip": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\Quantum.cs",
               "RelativeToolTip": "Quantum.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwOsBAAAFAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAMwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T10:39:43.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContemporaryPhysicsHelperModule.cs",
+              "DocumentMoniker": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelperModule.cs",
+              "RelativeDocumentMoniker": "ContemporaryPhysicsHelperModule.cs",
+              "ToolTip": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelperModule.cs",
+              "RelativeToolTip": "ContemporaryPhysicsHelperModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T03:24:40.765Z",
               "EditorCaption": ""
             },
             {

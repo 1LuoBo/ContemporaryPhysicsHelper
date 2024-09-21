@@ -40,17 +40,15 @@ namespace ContemporaryPhysicsHelper
             else
             {
                 this.initTimer = this.initTime;
-                Vector2 pqPos = this.Position + 4 * this.initVelocity / this.initVelocity.Length();
+                Vector2 pqPos = this.Position + 8 * this.initVelocity / this.initVelocity.Length();
                 Vector2 nqPos = 2 * this.Position - pqPos;
-                Vector2 size = new Vector2(8, 8);
+                Vector2 size = new Vector2(16, 16);
                 PositiveQuantum positiveQuantum = new PositiveQuantum(pqPos, size, 1.0f, false, true);
                 NegativeQuantum negativeQuantum = new NegativeQuantum(nqPos, size, 1.0f, false, true);
                 positiveQuantum.Speed = this.initVelocity;
                 negativeQuantum.Speed = -1 * this.initVelocity;
                 scene.Add(negativeQuantum);
                 scene.Add(positiveQuantum);
-                Logger.Log(LogLevel.Info, "PQ", positiveQuantum.Speed.ToString());
-                Logger.Log(LogLevel.Info, "NQ", negativeQuantum.Speed.ToString());
             }
         }
         public override void Added(Scene scene)

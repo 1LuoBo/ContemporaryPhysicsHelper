@@ -25,7 +25,7 @@ public class Quantum : Actor
     public Vector2 previousPosition;
     private Level Level;
     public Quantum.States state;
-    private Sprite sprite;
+    public Sprite sprite;
     public bool doesRemoveOnExplode;
     private float cantExplodeTimer;
     public static int quantumCnt = 0;
@@ -43,10 +43,10 @@ public class Quantum : Actor
         this.startPosition = this.Position;
         Hitbox hitbox = new(size.X, size.Y);
         Collider = hitbox;
-        this.Collider = new Hitbox(8f, 8f, -4f, -4f);
+        this.Collider = new Hitbox(16f, 16f, -8f, -8f);
         base.Depth = 100;
         base.Add(this.Hold = new Holdable(0.1f));
-        this.Hold.PickupCollider = new Hitbox(16f, 20f, -8f, -10f);
+        this.Hold.PickupCollider = new Hitbox(24f, 28f, -12f, -14f);
         this.Hold.SlowFall = false;
         this.Hold.SlowRun = true;
         this.Hold.OnRelease = new Action<Vector2>(this.OnRelease);
@@ -164,41 +164,44 @@ public class Quantum : Actor
         {
             if (base.OnGround(1))
             {
-                float target;
-                if (!base.OnGround(this.Position + Vector2.UnitX * 3f, 1))
+                if (hasGravity)
                 {
-                    target = 20f;
-                }
-                else if (!base.OnGround(this.Position - Vector2.UnitX * 3f, 1))
-                {
-                    target = -20f;
-                }
-                else
-                {
-                    target = 0f;
-                }
-                this.Speed.X = Calc.Approach(this.Speed.X, target, 800f * Engine.DeltaTime);
-                Vector2 liftSpeed = base.LiftSpeed;
-                if (liftSpeed == Vector2.Zero && this.prevLiftSpeed != Vector2.Zero)
-                {
-                    this.Speed = this.prevLiftSpeed;
-                    this.prevLiftSpeed = Vector2.Zero;
-                    this.Speed.Y = Math.Min(this.Speed.Y * 0.6f, 0f);
-                    if (this.Speed.X != 0f && this.Speed.Y == 0f)
+                    float target;
+                    if (!base.OnGround(this.Position + Vector2.UnitX * 3f, 1))
                     {
-                        this.Speed.Y = -60f;
+                        target = 20f;
                     }
-                    if (this.Speed.Y < 0f)
+                    else if (!base.OnGround(this.Position - Vector2.UnitX * 3f, 1))
                     {
-                        this.noGravityTimer = 0.15f;
+                        target = -20f;
                     }
-                }
-                else
-                {
-                    this.prevLiftSpeed = liftSpeed;
-                    if (liftSpeed.Y < 0f && this.Speed.Y < 0f)
+                    else
                     {
-                        this.Speed.Y = 0f;
+                        target = 0f;
+                    }
+                    this.Speed.X = Calc.Approach(this.Speed.X, target, 800f * Engine.DeltaTime);
+                    Vector2 liftSpeed = base.LiftSpeed;
+                    if (liftSpeed == Vector2.Zero && this.prevLiftSpeed != Vector2.Zero)
+                    {
+                        this.Speed = this.prevLiftSpeed;
+                        this.prevLiftSpeed = Vector2.Zero;
+                        this.Speed.Y = Math.Min(this.Speed.Y * 0.6f, 0f);
+                        if (this.Speed.X != 0f && this.Speed.Y == 0f)
+                        {
+                            this.Speed.Y = -60f;
+                        }
+                        if (this.Speed.Y < 0f)
+                        {
+                            this.noGravityTimer = 0.15f;
+                        }
+                    }
+                    else
+                    {
+                        this.prevLiftSpeed = liftSpeed;
+                        if (liftSpeed.Y < 0f && this.Speed.Y < 0f)
+                        {
+                            this.Speed.Y = 0f;
+                        }
                     }
                 }
             }
@@ -498,7 +501,7 @@ public class Quantum : Actor
         {
             this.Position = (this.previousPosition = this.startPosition);
             this.cantExplodeTimer = 0.5f;
-            //this.sprite.Play("recover", false, false);
+            this.sprite.Play("recover", false, false);
             Audio.Play("event:/new_content/game/10_farewell/puffer_reform", this.Position);
         }
         this.state = Quantum.States.Idle;
