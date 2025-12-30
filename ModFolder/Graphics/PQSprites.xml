@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Sprites>
+
+	<positiveQuantum path="objects/PositiveQuantum/" start="idle">
+    	<Loop id="idle" path="idle" delay="0.08"/>
+        <Anim id="explode" path="explode" goto="hidden" delay="0.05"/>
+		<Loop id="hidden" path="hidden" delay="0.08"/>
+    	<Anim id="recover" path="recover" goto="idle" delay="0.05"/>
+	</positiveQuantum>
+
+</Sprites>

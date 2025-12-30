@@ -14,16 +14,53 @@ namespace ContemporaryPhysicsHelper
         public NegativeQuantum(Vector2 position, Vector2 size) : base(position, size) 
         {
             base.isPositive = false;
+            //MTexture tex = GFX.Game["objects/NegativeQuantum/NegativeQuantum"];
+            //Image image = new(tex);
+            //image.SetOrigin(8f, 8f);
+            //this.Add(image);
+            base.Add(base.sprite = Celeste.Mod.ContemporaryPhysicsHelper.ContemporaryPhysicsHelperModule.NQSpriteBank.Create("negativeQuantum"));
+            base.sprite.Position = base.sprite.Position - new Vector2(32f, 32f);
         }
 
-        public NegativeQuantum(Vector2 position, Vector2 size, float attractSpeed) : base(position, size, attractSpeed) { }
+        public NegativeQuantum(Vector2 position, Vector2 size, float attractSpeed) : base(position, size, attractSpeed) 
+        {
+            //MTexture tex = GFX.Game["objects/NegativeQuantum/NegativeQuantum"];
+            //Image image = new(tex);
+            //image.SetOrigin(8f, 8f);
+            //this.Add(image);
+            base.Add(base.sprite = Celeste.Mod.ContemporaryPhysicsHelper.ContemporaryPhysicsHelperModule.NQSpriteBank.Create("negativeQuantum"));
+            base.sprite.Position = base.sprite.Position - new Vector2(32f, 32f);
+        }
 
         public NegativeQuantum(Vector2 position, Vector2 size, float attractSpeed, bool hasGravity) :
-            base(position, size, attractSpeed, hasGravity){ }
+            base(position, size, attractSpeed, hasGravity)
+        {
+            //MTexture tex = GFX.Game["objects/NegativeQuantum/NegativeQuantum"];
+            //Image image = new(tex);
+            //image.SetOrigin(8f, 8f);
+            //this.Add(image);
+            base.Add(base.sprite = Celeste.Mod.ContemporaryPhysicsHelper.ContemporaryPhysicsHelperModule.NQSpriteBank.Create("negativeQuantum"));
+            base.sprite.Position = base.sprite.Position - new Vector2(32f, 32f);
+        }
         public NegativeQuantum(Vector2 position, Vector2 size, float attractSpeed, bool hasGravity, bool doesRemoveOnExplode) :
             base(position, size, attractSpeed, hasGravity, doesRemoveOnExplode)
-        { }
-        public NegativeQuantum(EntityData data, Vector2 offset) : base(data, offset) { }
+        {
+            //MTexture tex = GFX.Game["objects/NegativeQuantum/NegativeQuantum"];
+            //Image image = new(tex);
+            //image.SetOrigin(8f, 8f);
+            //this.Add(image);
+            base.Add(base.sprite = Celeste.Mod.ContemporaryPhysicsHelper.ContemporaryPhysicsHelperModule.NQSpriteBank.Create("negativeQuantum"));
+            base.sprite.Position = base.sprite.Position - new Vector2(32f, 32f);
+        }
+        public NegativeQuantum(EntityData data, Vector2 offset) : base(data, offset)
+        {
+            //MTexture tex = GFX.Game["objects/NegativeQuantum/NegativeQuantum"];
+            //Image image = new(tex);
+            //image.SetOrigin(8f, 8f);
+            //this.Add(image);//
+            base.Add(base.sprite = Celeste.Mod.ContemporaryPhysicsHelper.ContemporaryPhysicsHelperModule.NQSpriteBank.Create("negativeQuantum"));
+            base.sprite.Position = base.sprite.Position - new Vector2(32f, 32f);
+        }
 
         public override void Render()
         {
@@ -44,13 +81,18 @@ namespace ContemporaryPhysicsHelper
             else
             {
                 base.Render();
-                Microsoft.Xna.Framework.Color c = Microsoft.Xna.Framework.Color.Black;
-                c.A = 255;
-                Draw.Rect(new Vector2(Position.X - 8, Position.Y - 8), 16, 16, c);
+                //
+                //Microsoft.Xna.Framework.Color c = Microsoft.Xna.Framework.Color.Black;
+                //c.A = 255;
+                //Draw.Rect(new Vector2(Position.X - 8, Position.Y - 8), 16, 16, c);
             }
         }
         public override void Update()
         {
+            List<Entity> NegativeBarrier = this.Scene.Tracker.GetEntities<NegativeBarrier>().ToList();
+            NegativeBarrier.ForEach(entity => entity.Collidable = true);
+            List<Entity> QuantumBarrier = this.Scene.Tracker.GetEntities<QuantumBarrier>().ToList();
+            QuantumBarrier.ForEach(entity => entity.Collidable = true);
             foreach (Entity entity in Scene.Tracker.GetEntities<PositiveQuantum>())
             {
                 PositiveQuantum positiveQuantum = entity as PositiveQuantum;
@@ -96,6 +138,8 @@ namespace ContemporaryPhysicsHelper
                 }
             }
             base.Update();
+            NegativeBarrier.ForEach(entity => entity.Collidable = false);
+            QuantumBarrier.ForEach(entity => entity.Collidable = false);
         }
     }
 }

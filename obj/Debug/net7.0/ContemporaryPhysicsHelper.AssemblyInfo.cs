@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContemporaryPhysicsHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb5e5c4646b3fad6c85a0c826052937c6621f830")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f37d5cd10a7dfafd5c91c2c35c306f556ebe549e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContemporaryPhysicsHelper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContemporaryPhysicsHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

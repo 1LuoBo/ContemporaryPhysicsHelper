@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\LuoBo\\.nuget\\packages\\": {}
+    "C:\\Users\\yuton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelper.csproj",
+      "projectUniqueName": "E:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelper.csproj",
       "projectName": "ContemporaryPhysicsHelper",
-      "projectPath": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelper.csproj",
-      "packagesPath": "C:\\Users\\LuoBo\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\obj\\",
+      "projectPath": "E:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelper.csproj",
+      "packagesPath": "C:\\Users\\yuton\\.nuget\\packages\\",
+      "outputPath": "E:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LuoBo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yuton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,12 +61,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

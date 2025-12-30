@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <CelesteRootPath>E:\SteamLibrary\steamapps\common\Celeste</CelesteRootPath>
+    <CelesteRootPath>C:\SteamLibrary\steamapps\common\Celeste</CelesteRootPath>
     <CommonCelesteUsings>true</CommonCelesteUsings>
     <CommonCelesteReferences>true</CommonCelesteReferences>
     <ModAssetsFolderName>ModFolder</ModAssetsFolderName>

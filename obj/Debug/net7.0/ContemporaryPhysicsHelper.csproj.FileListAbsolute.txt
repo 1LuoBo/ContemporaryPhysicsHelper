@@ -11,3 +11,16 @@ D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\refint\Co
 D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.pdb
 D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ref\ContemporaryPhysicsHelper.dll
 D:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.sourcelink.json
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\bin\Debug\net7.0\ContemporaryPhysicsHelper.deps.json
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\bin\Debug\net7.0\ContemporaryPhysicsHelper.dll
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\bin\Debug\net7.0\ContemporaryPhysicsHelper.pdb
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.csproj.AssemblyReference.cache
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.AssemblyInfoInputs.cache
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.AssemblyInfo.cs
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.csproj.CoreCompileInputs.cache
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.sourcelink.json
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.dll
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\refint\ContemporaryPhysicsHelper.dll
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ContemporaryPhysicsHelper.pdb
+E:\Documents\CelesteModding\ContemporaryPhysicsHelper\obj\Debug\net7.0\ref\ContemporaryPhysicsHelper.dll

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ContemporaryPhysicsHelper
 {
     [CustomEntity("ContemporaryPhysicsHelper/Fluctuation")]
+    [Tracked]
     public class Fluctuation : Entity
     {
         private float initTime = 2f;

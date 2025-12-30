@@ -1,0 +1,12 @@
+#Mod Name
+mods.ContemporaryPhysicsHelper.name=Contemporary Physics ContemporaryPhysicsHelper
+
+#Entities
+entities.ContemporaryPhysicsHelper/PositiveQuantum.placements.name.PositiveQuantum=Positive Quantum
+entities.ContemporaryPhysicsHelper/NegativeQuantum.placements.name.NegativeQuantum=Negative Quantum
+entities.ContemporaryPhysicsHelper/PositiveBarrier.placements.name.normal=Positive Barrier
+entities.ContemporaryPhysicsHelper/NegativeBarrier.placements.name.normal=Negative Barrier
+entities.ContemporaryPhysicsHelper/QuantumBarrier.placements.name.normal=Quantum Barrier
+
+#Triggers
+triggers.ContemporaryPhysicsHelper/QuantumEmptierTrigger.placements.name.normal=Quantum Emptier Trigger

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zwNTRyQoscQ=",
+  "dgSpecHash": "z2BS0TZiARo=",
   "success": true,
-  "projectFilePath": "D:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelper.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Documents\\CelesteModding\\ContemporaryPhysicsHelper\\ContemporaryPhysicsHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuton\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\yuton\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\yuton\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
