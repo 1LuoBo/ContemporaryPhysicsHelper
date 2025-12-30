@@ -340,7 +340,6 @@ public class Quantum : Actor
     {
         Collider collider = base.Collider;
         Audio.Play("event:/new_content/game/10_farewell/puffer_splode", center);
-        Logger.Log(LogLevel.Info, "cph", "base:" + this.sprite.Position);
         this.sprite.Play("explode", false, false);
         Player player = base.CollideFirst<Player>();
         if (player != null && !base.Scene.CollideCheck<Solid>(center, player.Center))
